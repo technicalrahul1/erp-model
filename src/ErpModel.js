@@ -8,7 +8,7 @@ const ErpModel = (data) => {
       <div>
        <div
           style={{
-            height: "390px",
+            height: "396px",
             width: "100%",
             gap: "80px",
             justifyContent: "center",
