@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import TableSalesItems from '../SubComponents/TableSalesItems'
+import TableSalesItems from '../Tables/TableSalesItems'
 
 const DataDescription = () => {
   

@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 
-const ErpModel = (data) => {
-  console.log("erp mdel",data);
+const ErpModel = () => {
+  
   return (
     <>
       <div>
@@ -21,14 +21,14 @@ const ErpModel = (data) => {
           <Link to="/erp-model/data-discription" >Company Historical Data & Analysis</Link>
         </button>
         <button className="button-left2">
-          <Link to="/erp-model/profit-prediction">Discount Discount</Link>
+          <Link to="/erp-model/profit-prediction">Sales Prediction</Link>
         </button>
         <div
             className="box-right"
             style={{ flexDirection: "column", marginTop: "30px" }}
           >
             <button className="button-left3">
-              <Link to="/erp-model/Blank">Sales Prediction</Link>
+              <Link to="/erp-model/Blank">Discount Distribution</Link>
             </button>
             <button className="button-left4">
               <Link to="/erp-model/Blank1">Discount Distribution Toolset</Link>
