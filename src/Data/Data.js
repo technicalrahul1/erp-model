@@ -1,58 +1,63 @@
 import React from "react";
-export const Data =[
+export const Customer =[
     {
       SrNo:1,
-      city: "DURGAPUR",
       customerID: "B07FWXZVZ",
+      city: "DURGAPUR",
+      state: "WEST BENGAL",
       postalcode: 713212,
-      state: "WEST BENGAL"
     },
     {
       SrNo:2,
-      city: "AJMER",
+      
       customerID: "B07FWWYRT",
+      city: "AJMER",
+      state: "RAJASTHAN",
       postalcode: 305001,
-      state: "RAJASTHAN"
     },
     {
       SrNo:3,
-      city: "INDORE",
       customerID: "B07FWWBZQ",
+      city: "INDORE",
+      state: "MADHYA PRADESH",
       postalcode: 452001,
-      state: "MADHYA PRADESH"
     },
     {
       SrNo:4,
-      city: "NAVI MUMBAI",
       customerID: "B07FWXZTT",
+      city: "NAVI MUMBAI",
+      state: "MAHARASHTRA",
       postalcode: 410208,
-      state: "MAHARASHTRA"
     }
     ]
   
-export const Customer=[
+export const Product=[
     {
-      Total_amoun: 21640.0,
-      category: "college",
+      SrNo:1,
       productname: "Database System Concepts (Int'l Ed)",
-      quantity: 20
+      category: "college",
+      quantity: 20,
+      Total_amount: 21640.0,
     },
     {
-      Total_amount: 2085.0,
-      category: "college",
+      SrNo:2,
       productname: "Textbook of Refrigeration and Air-conditioning (M.E.)",
-      quantity: 3
-    },
-    {
-      Total_amount: 5894.0,
       category: "college",
-      productname: "Shigley's Mechanical Engineering Design - SIE",
-      quantity: 7
+      quantity: 3,
+      Total_amount: 2085.0,
     },
     {
-      Total_amount: 760.0,
-      category: "competition ",
+      SrNo:3,
+      productname: "Shigley's Mechanical Engineering Design - SIE",
+      category: "college",
+      quantity: 7,
+      Total_amount: 5894.0,
+    },
+    {
+      SrNo:4,
       productname: "Lakshy REET Prayavaran Adhyan Ganit & Balvikas Class 1 - 5, Level - I 2017-18",
-      quantity:2
+      category: "competition ",
+      quantity:2,
+      Total_amount: 760.0,
    }
    ]   

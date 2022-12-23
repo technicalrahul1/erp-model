@@ -1,12 +1,13 @@
 import React from 'react'
-import {Data, Customer} from "../Data/Data"
+import {Customer,Product} from "../Data/Data"
 import "../App.css";
-const TableSalesItems = () => {
+const TableSalesItems = (props) => {
   return (
     <>
      <div className='table'>
       <div className='table-box'>
        <tr className='table-row'>
+       {/* {props.miniData.map(()=>{})} */}
         <th className='table-heading'>Sr.No.</th>
         <th>customerID</th>
         <th>city</th>
@@ -14,16 +15,15 @@ const TableSalesItems = () => {
         <th>postalcode</th>
        </tr>
       </div>
-       {Data.map((items)=>{
-        console.log("map",items)
+       {props?.data.map((items)=>{
+        console.log("data",items)
         return(
           <tr>
-          <td>{items.SrNo}</td>
-            <td className='table-data'>{items.city}</td>
-            <td className='table-data'>{items.customerID}</td>
-            <td>{items.postalcode}</td>
-            <td>{items.state}</td>
-           
+            <td>{items.SrNo || items.SrNo}</td>
+            <td className='table-data'>{items.customerID || items.productname}</td>
+            <td className='table-data'>{items.city || items.category}</td>
+            <td>{items.state || items.quantity}</td>
+            <td>{items.postalcode || items.Total_amount}</td>
           </tr>
         )
        })}

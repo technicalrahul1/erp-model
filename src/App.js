@@ -8,6 +8,7 @@ import Blank1 from "./Pages/Blank1"
 import ErpModel from "./Pages/ErpModel";
 import DataDescription from "./Pages/DataDescription"
 import TableSalesItems from "./Tables/TableSalesItems";
+import { Customer,Product } from "./Data/Data";
 const App = () => {
   // const [ data, setData] =useState()
   // const API ="https://jsonplaceholder.typicode.com/todos"
@@ -16,7 +17,13 @@ const App = () => {
   //   .then(response => response.json())
   //   .then(json => setData(json.products))
   // },[])
-  
+  // const miniData =[
+  //   {field:"SrNo",header:"SRNO"},
+  //   {field:"city"},
+  //   {field:"customerID"},
+  //   {field:"postalcode"},
+  //   {field:"state"},
+  // ]
   return (
     <> 
       <BrowserRouter>
@@ -24,9 +31,9 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<ErpModel/>} />
           <Route exact path="/erp-model/data-discription" element={<DataDescription  />} />
-              <Route path="/erp-model/sales-item-from-data-discription" element={<TableSalesItems />} />
-              <Route path="/erp-model/copy-of-data-discription-sales-item" element={<TableSalesItems/>} />
-              <Route path="/erp-model/copy-of-data-discription-sales-item-1" element={<TableSalesItems/>} />
+              <Route path="/erp-model/sales-item-from-data-discription" element={<TableSalesItems data={Product}/>} />
+              <Route path="/erp-model/copy-of-data-discription-sales-item" element={<TableSalesItems data={Customer} />} />
+              <Route path="/erp-model/copy-of-data-discription-sales-item-1" element={<TableSalesItems />} />
                {/* <Route path="/erp-model/derived-algorithm" element={} /> */}
           <Route exact path="/erp-model/profit-prediction" element={<ProfitPrediction/>} />
               
