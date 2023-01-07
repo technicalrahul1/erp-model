@@ -18,23 +18,23 @@ const ProfitPrediction = () => {
         >
         <button><Link to={-1}>Back</Link></button>
         <button className="button-left1">
-          <Link>Xg boost Algorithum</Link>
+          <Link to="/erp-model/xg-boost-algorithm">Xg boost Algorithum</Link>
         </button>
           <button className="button-left2">
-          <Link>Random Forest Algorithum</Link>
+          <h1 >Random Forest Algorithum</h1>
           </button>
           <div
             className="box-right"
             style={{ flexDirection: "column", marginTop: "30px" }}
           >
             <button className="button-left3">
-              <h3>Show Result</h3>
+              <Link to="/erp-model/xg-boost-algo-generated-results">Show Result</Link>
             </button>
             <button className="button-left4">
-              <h3>Show Result</h3>
+              <Link to="/erp-model/random-forest-algo-generated-results">Show Result</Link>
             </button>
             <button className="button-left4">
-              <h3>Predicted Average</h3>
+              <Link to="/erp-model/show-avg-of-predicted-results">Predicted Average</Link>
             </button>
           </div>
         </div>

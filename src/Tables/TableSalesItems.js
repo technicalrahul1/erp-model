@@ -23,7 +23,7 @@ const TableSalesItems = (props) => {
             <td className='table-data'>{items.customerID || items.productname}</td>
             <td className='table-data'>{items.city || items.category}</td>
             <td>{items.state || items.quantity}</td>
-            <td>{items.postalcode || items.Total_amount}</td>
+            <td>{items.postalcode || items.Total_amount} </td>
           </tr>
         )
        })}

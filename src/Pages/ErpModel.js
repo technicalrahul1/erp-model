@@ -31,7 +31,7 @@ const ErpModel = () => {
               <Link to="/erp-model/Blank">Discount Distribution</Link>
             </button>
             <button className="button-left4">
-              <Link to="/erp-model/Blank1">Discount Distribution Toolset</Link>
+              <Link to="/erp-model/blank-1">Discount Distribution Toolset</Link>
             </button>
           </div>
         </div>

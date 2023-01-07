@@ -19,7 +19,7 @@ const Blank1 = () => {
         <button><Link to={-1}>Back</Link></button>
         {/* <Link to="/erp-model">{">"}</Link> */}
         <button className="button-left1">
-          <Link to="/erp-model/data-discription" >Wish List</Link>
+          <Link to="/erp-model/wish-list" >Wish List</Link>
         </button>
           <button className="button-left2">
             <h3>Discount Division</h3>
@@ -29,7 +29,7 @@ const Blank1 = () => {
             style={{ flexDirection: "column", marginTop: "30px" }}
           >
             <button className="button-left3">
-              <h3>Return Gift</h3>
+              <Link to="/erp-model/return-gift">Return Gift</Link>
             </button>
             <button className="button-left4">
               <h3>Categorical Discount</h3>

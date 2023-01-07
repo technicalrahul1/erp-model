@@ -67,7 +67,7 @@ ul li ul.dropdown li a{
 }
 ul li ul.dropdown{
   width: 100%;
-  background: white;
+  background: rgb(255, 255, 255);
   position: absolute;
   z-index: 999;
   display: none;
