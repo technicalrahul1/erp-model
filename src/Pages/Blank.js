@@ -21,7 +21,7 @@ const Blank = () => {
           <Link to="/erp-model/derived-algorithm">Apply Derived Algorithum</Link>
         </button>
         <button className="button-left2">
-          <h3>Show Results</h3>
+          <Link to="/erp-model/apply-derived-algorithim">Show Results</Link>
         </button> 
         </div>
     </div>

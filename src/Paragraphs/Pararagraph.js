@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Graph from "../Graph/Graph"
 const Pararagraph = () => {
   return (
     <>
@@ -8,6 +8,7 @@ const Pararagraph = () => {
         <p>#import numpy as np</p>
         <p>from numpy import loadtxt</p>
         <p>from xgboost import XGBClassifier</p>
+        <Graph />
     </>
   )
 }
