@@ -49,21 +49,30 @@ ul li a {
   text-align: center;
   font-size: 20px;
   font-family: aerial;
+  
 }
 ul li ul.dropdown li {
   display: block;
   height:25px;
   /* background-color: aqua; */
   border-top: 1px solid black;
-  margin: 0px;
+  margin: 0;
   padding: 0;
+  
+  
 }
 ul li ul.dropdown li a{
   font-family: aerial;
  height: 25px;
- font-size: 19px;
+ font-size: 16px;
  padding: 0px;
  width: auto;
+ border-bottom: 1px solid black;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+ cursor: pointer;
+ align-items: center;
+ 
 }
 ul li ul.dropdown{
   width: 100%;
@@ -99,14 +108,17 @@ ul li:hover ul.dropdown{
 .button-left1:hover{
   background-color: white;
   border: 4px double;
+  
 
 }
 
 h3{
-  color: aliceblue;
+  color: black;
+  
+  
 }
 .button-left1:hover h3{
-  color: black;
+  background-color: black;
 }
 
 .button-left2{
@@ -181,6 +193,7 @@ h3{
 }
 .table-data{
   padding: 5px;
+  
   
   
 }
