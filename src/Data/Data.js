@@ -9,7 +9,6 @@ export const Customer =[
     },
     {
       SrNo:2,
-      
       customerID: "B07FWWYRT",
       city: "AJMER",
       state: "RAJASTHAN",
