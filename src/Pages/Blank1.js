@@ -22,7 +22,7 @@ const Blank1 = () => {
           <Link to="/erp-model/wish-list" >Wish List</Link>
         </button>
           <button className="button-left2">
-            <h3>Discount Division</h3>
+            <Link to="/erp-model/discount-division-by-3">Discount Division</Link>
           </button>
           <div
             className="box-right"
@@ -32,7 +32,7 @@ const Blank1 = () => {
               <Link to="/erp-model/return-gift">Return Gift</Link>
             </button>
             <button className="button-left4">
-              <h3>Categorical Discount</h3>
+              <Link to="/erp-model/4thbtn">Categorical Discount</Link>
             </button>
           </div>
         </div>
