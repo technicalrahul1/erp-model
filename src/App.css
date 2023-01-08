@@ -90,14 +90,6 @@ ul li:hover ul.dropdown{
   font-family: aerial;
 }
 
-
-
-/* .navbar p{
-  padding-left: 80px;
-  
-} */
-
-
 .button-left1{
  height: 85px;
  width:300px;
@@ -105,6 +97,9 @@ ul li:hover ul.dropdown{
  background-color: #0B2F5B;
  cursor: pointer;
 }
+/* .button-left1:hover a{
+  color:black;
+} */
 .button-left1:hover{
   background-color: white;
   border: 4px double;
