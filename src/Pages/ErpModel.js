@@ -18,21 +18,19 @@ const ErpModel = () => {
           }}
         >
         
-          <Link style={{color:"red"}} to="/erp-model/data-discription" >Company Historical Data & Analysis</Link>
+          <Link className="link-left2" to="/erp-model/data-discription" ><button className="button-left1">Company Historical Data & Analysis</button></Link>
+          
         
-        <button className="button-left2">
-          <Link style={{color:"white",textDecoration:"none"}} to="/erp-model/profit-prediction">Sales Prediction</Link>
-        </button>
+          <Link className="link-left2"  to="/erp-model/profit-prediction">
+          <button className="button-left2">Sales Prediction</button>
+          </Link>
+       
         <div
             className="box-right"
             style={{ flexDirection: "column", marginTop: "30px" }}
           >
-            <button className="button-left3">
-              <Link to="/erp-model/Blank">Discount Distribution</Link>
-            </button>
-            <button className="button-left4">
-              <Link to="/erp-model/blank-1">Discount Distribution Toolset</Link>
-            </button>
+              <Link style={{color:"white",textDecoration:"none"}} to="/erp-model/Blank"><button className="button-left3">Discount Distribution</button></Link>
+              <Link style={{color:"white",textDecoration:"none"}} to="/erp-model/blank-1"><button className="button-left4">Discount Distribution Toolset</button></Link>
           </div>
         </div>
       </div>

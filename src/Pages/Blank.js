@@ -8,21 +8,23 @@ const Blank = () => {
       <div
           style={{
             height: "390px",
-            width: "100%",
+            width: "40%",
             gap: "80px",
             justifyContent: "center",
             paddingTop: "200px",
             paddingBottom: "50px",
             paddingLeft: "600px",
+            display:'flex',
+            flexDirection:"column"
           }}
         >
-        <button><Link to={-1}>Back</Link></button>
-        <button className="button-left1">
-          <Link to="/erp-model/derived-algorithm">Apply Derived Algorithum</Link>
-        </button>
-        <button className="button-left2">
-          <Link to="/erp-model/apply-derived-algorithim">Show Results</Link>
-        </button> 
+        <button className='previousbtn'><Link to={-1}>Back</Link></button>
+        
+          <Link style={{color:"white",textDecoration:"none"}} to="/erp-model/derived-algorithm"><button className="button-left1">Apply Derived Algorithum</button></Link>
+        
+        
+          <Link style={{color:"white",textDecoration:"none"}} to="/erp-model/apply-derived-algorithim"><button className="button-left2">Show Results</button></Link>
+        
         </div>
     </div>
     </>

@@ -11,12 +11,10 @@ const ErpModelBlank1 = () => {
       paddingBottom: "50px",
       paddingLeft: "600px",
     }}>
-      <button>
-        <Link to={"/erp-model/add-to-wishlist"}>Add To Wishlist</Link>
-      </button>
-      <button>
-        <Link to={"/erp-model/show-wishlist"}>Show Wishlist</Link>
-      </button>
+      
+        <Link style={{color:"white",textDecoration:"none"}} to={"/erp-model/add-to-wishlist"}><button className='button-left1'>Add To Wishlist</button></Link>
+        <Link style={{color:"white",textDecoration:"none"}} to={"/erp-model/show-wishlist"}><button className='button-left3'>Show Wishlist</button></Link>
+
     </div>
   )
 }

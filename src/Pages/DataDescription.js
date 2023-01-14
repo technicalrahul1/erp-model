@@ -19,22 +19,19 @@ const DataDescription = () => {
           }}
         >
         <button><Link to={-1}>Back</Link></button>
-        <button className="button-left1">
-          <Link to="/erp-model/sales-item-from-data-discription" >Sales Item</Link>
-        </button>
-          <button className="button-left2">
-            <Link to="/erp-model/copy-of-data-discription-sales-item">Users Detail</Link>
-          </button>
+        
+          <Link style={{color:"white",textDecoration:"none"}} to="/erp-model/sales-item-from-data-discription" ><button className="button-left1">Sales Item</button></Link>
+          
+            <Link style={{color:"white",textDecoration:"none"}} to="/erp-model/copy-of-data-discription-sales-item"><button className="button-left2">Users Detail</button></Link>
+        
           <div
             className="box-right"
             style={{ flexDirection: "column", marginTop: "30px" }}
           >
-            <button className="button-left3-dropdown">
-              <h3>Data Description Graph</h3>
-            </button>
-            <button className="button-left4">
-              <Link to="/erp-model/copy-of-data-discription-sales-item-1">List of Loyal Customers</Link>
-            </button>
+            
+              <Link to="#" style={{color:"white",textDecoration:"none"}}><button className="button-left3-dropdown">Data Description Graph</button></Link>
+              <Link style={{color:"white",textDecoration:"none"}} to="/erp-model/copy-of-data-discription-sales-item-1"> <button className="button-left4">List of Loyal Customers</button></Link>
+
           </div>
         </div>
     </div>
