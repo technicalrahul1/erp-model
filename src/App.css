@@ -90,20 +90,25 @@ ul li:hover ul.dropdown{
   font-family: aerial;
 }
 
+
+
+/* .navbar p{
+  padding-left: 80px;
+  
+} */
+
+
 .button-left1{
  height: 85px;
  width:300px;
  border: 4px double white; 
  background-color: #0B2F5B;
  cursor: pointer;
+
 }
-/* .button-left1:hover a{
-  color:black;
-} */
 .button-left1:hover{
   background-color: white;
   border: 4px double;
-  
 
 }
 
@@ -124,15 +129,18 @@ h3{
   border: 4px double white; 
  background-color: #0B2F5B;
  cursor: pointer;
+ font-family: "playfair display", serif;
 }
 .button-left2:hover{
   background-color: white;
-  border: 4px double;
+  border: 1px solid black;
+  transform: scale(1);
+  overflow: hidden;
+  object-fit: cover;
+  transition: 0.5s;
+  
+}
 
-}
-.button-left2:hover h3{
-  color: black;
-}
 .button-left3{
   height: 85px;
   width:300px;
@@ -165,30 +173,50 @@ h3{
   color: black;
 }
 
+.button-left3-dropdown{ 
+  height: 85px;
+  width:300px;
+  border: 4px double white; 
+  background-color: #0B2F5B;
+  cursor: pointer;
+}
+
     /* Table complete css */
+
+
+
 .table{
   border:2px solid rgb(104, 104, 110);
   align-items: center;
   margin:auto;
-  width:900px;
+  width: fit-content;
 }
 .table-box{
   border-bottom: 2px solid blue;
   background-color: #0057E1;
+  height:63px;
+  /* width: fit-content; */
 }
 .table-row{
   border: 2px solid blue;
-  /* background-color:rgb(74, 74, 186) */
+  height:63px;
+  
+}
+.table-row-data{
+  border: 2px solid blue;
+  height:33px
 }
 .table-heading{
-  
+  color: aliceblue;
+  width:145px;
   font-size: 18px;
   margin: 5px;
-  
+  border: 0.1px solid black;
+  text-align: center;
 }
 .table-data{
+  text-align: center;
   padding: 5px;
-  
   
   
 }

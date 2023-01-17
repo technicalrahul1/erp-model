@@ -23,7 +23,7 @@ const Table6 = (props) => {
         console.log("data",items)
         return(
           <tr>
-            <td>{items.SrNo ? items.SrNo : "Rahul" }</td>
+            <td className='table-data'>{items.SrNo ? items.SrNo : "Rahul" }</td>
             <td className='table-data'>{items.CustomerID}</td>
             <td className='table-data'>{items.ProductName ? items.ProductName : items.GeneratedDiscount ? items.GeneratedDiscount : items.Gender}</td>
             <td className='table-data'>{items.NoOfVisits ? items.NoOfVisits : items.FirstDiscount ? items.FirstDiscount : items.State}</td>

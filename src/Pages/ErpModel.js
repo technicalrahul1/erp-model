@@ -17,11 +17,11 @@ const ErpModel = () => {
             paddingLeft: "600px",
           }}
         >
-        <button className="button-left1">
-          <Link to="/erp-model/data-discription" >Company Historical Data & Analysis</Link>
-        </button>
+        
+          <Link style={{color:"red"}} to="/erp-model/data-discription" >Company Historical Data & Analysis</Link>
+        
         <button className="button-left2">
-          <Link to="/erp-model/profit-prediction">Sales Prediction</Link>
+          <Link style={{color:"white",textDecoration:"none"}} to="/erp-model/profit-prediction">Sales Prediction</Link>
         </button>
         <div
             className="box-right"

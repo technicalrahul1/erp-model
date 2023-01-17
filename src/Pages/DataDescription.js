@@ -29,7 +29,7 @@ const DataDescription = () => {
             className="box-right"
             style={{ flexDirection: "column", marginTop: "30px" }}
           >
-            <button className="button-left3">
+            <button className="button-left3-dropdown">
               <h3>Data Description Graph</h3>
             </button>
             <button className="button-left4">
