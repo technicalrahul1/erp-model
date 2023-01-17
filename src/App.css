@@ -130,6 +130,7 @@ h3{
  background-color: #0B2F5B;
  cursor: pointer;
  font-family: "playfair display", serif;
+ border-radius: 10px;
 }
 .button-left2:hover{
   background-color: white;
